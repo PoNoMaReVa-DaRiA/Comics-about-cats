@@ -1,0 +1,49 @@
+.start {
+    background-image: url(./images/head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+body {
+    background-image: url(./images/background.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    margin: 0px;
+    font-family:'StratosSkyeng',sans-serif ;
+}
+#table{
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+td,th{
+    border: 25px solid white;
+}
+img {
+    width: 560px;
+}
+p{
+    max-width: max-content;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 25px ;
+    padding: 10px 30px;
+    margin: 23 auto;
+}
+a{
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    right: 80px;
+    bottom: 75px;
+}
